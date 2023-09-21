@@ -1,0 +1,1346 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/*INTRODUCTION*/
+
+html{
+    background-image: url('./background-home-desktop.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+}
+
+.heading{
+    display: flex;
+}
+
+
+
+.logo{
+    width:50px;
+    height:50px;
+    margin-top: 48px;
+    margin-left: 30px;
+}
+
+.div {
+    background-color:hsla(244, 28%, 29%, 0.699);
+    height: 2px;
+    width: 700px;
+    margin-top: 75px;
+}
+
+
+.menu{
+    display: flex;
+    font-size: small;
+    background-color:hsla(244, 28%, 29%, 0.521);
+    width: 700px;
+    height: 70px;
+    margin-top: 40px;
+    font-family:'Oswald', sans-serif;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    
+
+}
+
+.home{
+    padding-top: 14px;
+    background-color:hsla(244, 28%, 29%, 0.521);
+    padding-left: 80px;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color:white;
+    
+
+    
+}
+
+.destination{
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:hsla(244, 28%, 29%, 0.521);
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color: hsla(244, 28%, 29%, 0);
+    
+}
+
+.crew{
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color:hsla(244, 28%, 29%, 0.521);
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color:hsla(244, 28%, 29%, 0);
+
+}
+
+.technology{
+    padding-top: 14px;
+    padding-right: 80px;
+    background-color:hsla(244, 28%, 29%, 0.521);
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color:hsla(244, 28%, 29%, 0);
+}
+
+.description h1{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.description h2{
+    font-family:'Dai Banna SIL', serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.description p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+.description{
+    width:400px;
+    height: 300px;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+.explore{
+    width:200px;
+    height: 200px;
+    background-color:rgba(250, 250, 250, 0.5);
+    color:rgba(0, 0, 0, 0.692);
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 380px;
+    margin-top: 300px;
+   
+}
+.explore h1{
+  padding-top:70px;
+  font-weight: lighter;
+  font-family:'Dai Banna SIL', serif;
+}
+
+.container{
+    display:flex;
+}
+
+/* DESTINATION MOON*/
+
+.destination01{
+    display: none;
+}
+
+.title-moon{
+    margin-top:100px;
+    width:500px;
+    margin-left: 150px;
+    display: block;
+
+}
+
+.title-moon h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+.menu-destination{
+
+    width:500px;
+    margin-top: 200px;
+
+   
+    
+}
+
+
+.container01-moon{
+    display:block;
+    margin-left:150px;
+
+}
+
+.container02-moon{
+    display:flex;
+    
+}
+
+.description-moon{
+
+    width:460px;
+    height:400px;
+    display:block;
+
+
+
+}
+
+.moon{
+
+    padding-top: 14px;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color:white;
+    background-color:transparent;
+    
+
+}
+
+.mars{
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color: hsla(244, 28%, 29%, 0);
+    background-color:transparent;
+}
+
+.europa{
+    padding-top: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color:hsla(244, 28%, 29%, 0);
+    background-color:transparent;
+}
+
+.titan{
+    padding-top: 14px;
+    padding-right: 80px;
+    background-color:none;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+    border-bottom-color:hsla(244, 28%, 29%, 0);
+    background-color:transparent;
+}
+
+.description-moon h1{
+    font-family:'Dai Banna SIL', serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+    
+}
+
+.description-moon p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+.distance-moon {
+    margin-right: 80px;
+    
+}
+
+.distance-moon h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.distance-moon h3{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+.line-moon{
+    margin-top: 50px;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.time-moon h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.time-moon h3{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+
+}
+
+/*DESTINATION MARS*/
+
+.destination02{
+    display: none;
+}
+
+.title-mars{
+    margin-top:100px;
+    width:500px;
+    margin-left: 150px;
+    display: block;
+
+}
+
+.title-mars h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+
+
+.container01-mars{
+    margin-left:150px;
+    display:block;
+
+}
+
+.container02-mars{
+    display:flex;
+    
+}
+
+.description-mars{
+
+    width:460px;
+    height:400px;
+
+}
+
+.description-mars h1{
+    font-family:'Dai Banna SIL', serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+    
+}
+
+.description-mars p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+.distance-mars {
+    margin-right: 80px;
+    
+}
+
+.distance-mars h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.distance-mars h3{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+.line-mars{
+    margin-top: 50px;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.time-mars h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.time-mars h3{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+
+}
+
+/*DESTINATION EUROPA*/
+
+.destination03{
+    display: none;
+}
+
+.title-europa{
+    margin-top:100px;
+    width:500px;
+    margin-left: 150px;
+    display: block;
+
+}
+
+.title-europa h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+
+
+.container01-europa{
+    margin-left:150px;
+    display:block;
+
+}
+
+.container02-europa{
+    display:flex;
+    
+}
+
+.description-europa{
+
+    width:460px;
+    height:400px;
+
+}
+
+.description-europa h1{
+    font-family:'Dai Banna SIL', serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+    
+}
+
+.description-europa p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+.distance-europa {
+    margin-right: 80px;
+    
+}
+
+.distance-europa h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.distance-europa h3{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+.line-europa{
+    margin-top: 50px;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.time-europa h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.time-europa h3{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+
+}
+
+/*DESTINATION TITAN*/
+
+.destination04{
+    display: none;
+}
+
+.title-titan{
+    margin-top:100px;
+    width:500px;
+    margin-left: 150px;
+    display: block;
+
+}
+
+.title-titan h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+
+
+.container01-titan{
+    margin-left:150px;
+    display:block;
+
+}
+
+.container02-titan{
+    display:flex;
+    
+}
+
+.description-titan{
+
+    width:460px;
+    height:400px;
+
+}
+
+.description-titan h1{
+    font-family:'Dai Banna SIL', serif;
+    font-size: 120px;
+    letter-spacing: 10px;
+    font-weight: lighter;
+    margin-bottom: 1px;
+    
+}
+
+.description-titan p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:medium;
+    font-weight:lighter;
+    letter-spacing: 1px;
+}
+
+.distance-titan {
+    margin-right: 80px;
+    
+}
+
+.distance-titan h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.distance-titan h3{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+}
+
+.line-titan{
+    margin-top: 50px;
+    color:white;
+    margin-bottom: 40px;
+}
+
+.time-titan h2{
+    font-family:'Oswald', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.time-titan h3{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: larger;
+    margin-bottom: 70px;
+
+}
+
+/*CREW ENGINEER*/
+
+.crew01{
+    background-image: url('/crew/background-crew-desktop.jpg');
+    display:none;
+}
+
+.title-crew01 {
+
+    margin-top:100px;
+    width:415px;
+    margin-left: 150px;
+    display: block;
+
+
+}
+
+.title-crew01 h1 {
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 150px;
+
+}
+
+.title-crew01 h2 {
+
+    font-family: 'Lora', serif;
+    color:lightgray;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 25px;
+
+
+}
+
+.title-crew01 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.title-crew01 p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+
+}
+
+.photo01{
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.engineer1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:white;
+    border-color:transparent;
+    
+
+}
+
+.commander1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:gray;
+    border-color:transparent;
+    
+    
+}
+
+.pilot1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:gray;
+    border-color:transparent;
+    
+
+}
+
+.specialist1{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:gray;
+    border-color:transparent;
+}
+
+/*CREW COMMANDDER*/
+
+.crew02{
+    display: none;
+}
+
+.title-crew02 {
+
+    margin-top:100px;
+    width:415px;
+    margin-left: 150px;
+    display: block;
+
+
+}
+
+.title-crew02 h1 {
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 150px;
+
+}
+
+.title-crew02 h2 {
+
+    font-family: 'Lora', serif;
+    color:lightgray;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 25px;
+
+
+}
+
+.title-crew02 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.title-crew02 p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+
+}
+
+.photo02{
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.engineer2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: gray;
+    border-color:transparent;
+    
+
+}
+
+.commander2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:white;
+    border-color:transparent;
+    
+    
+}
+
+.pilot2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:gray;
+    border-color:transparent;
+    
+
+}
+
+.specialist2{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:gray;
+    border-color:transparent;
+}
+
+/*CREW PILOT*/
+
+.crew03{
+    display: none;
+}
+
+.title-crew03 {
+
+    margin-top:100px;
+    width:415px;
+    margin-left: 150px;
+    display: block;
+
+
+}
+
+.title-crew03 h1 {
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 150px;
+
+}
+
+.title-crew03 h2 {
+
+    font-family: 'Lora', serif;
+    color:lightgray;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 25px;
+
+
+}
+
+.title-crew03 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.title-crew03 p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+
+}
+
+.photo03{
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.engineer3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: gray;
+    border-color:transparent;
+    
+
+}
+
+.commander3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:gray;
+    border-color:transparent;
+    
+    
+}
+
+.pilot3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:white;
+    border-color:transparent;
+    
+
+}
+
+.specialist3{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:gray;
+    border-color:transparent;
+}
+
+/*CREW SPECIALIST*/
+
+.crew04{
+    display: none;
+}
+
+.title-crew04 {
+
+    margin-top:100px;
+    width:415px;
+    margin-left: 150px;
+    display: block;
+
+
+}
+
+.title-crew04 h1 {
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 150px;
+
+}
+
+.title-crew04 h2 {
+
+    font-family: 'Lora', serif;
+    color:lightgray;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 25px;
+
+
+}
+
+.title-crew04 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+.title-crew04 p{
+
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+
+}
+
+.photo04{
+    margin-top: 210px;
+    margin-left: 100px;
+}
+
+.engineer4{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: gray;
+    border-color:transparent;
+    
+
+}
+
+.commander4{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:gray;
+    border-color:transparent;
+    
+    
+}
+
+.pilot4{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color:gray;
+    border-color:transparent;
+    
+
+}
+
+.specialist4{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:white;
+    border-color:transparent;
+}
+
+/*TECHNOLOGY-LAUNCH*/
+
+.section-technology01{
+    display: none;
+}
+
+.technology01{
+    display:flex;
+}
+
+.description-technology01{
+
+    display: flex;
+}
+
+.numbers01{
+    height: 400px;
+    width:100px;
+    margin-left: 100px;
+    margin-top:80px;
+}
+
+.tech1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: transparent;
+    color: black;
+    margin-bottom: 30px;
+    margin-top:15px;
+    font-family:'Lora', serif;
+    font-size: 25px;
+    border-width: 0.1px;
+}
+
+.tech{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:transparent;
+    border-color: white;
+    margin-bottom: 30px;
+    font-family:'Lora', serif;
+    font-size: 25px;
+    color:white;
+    border-width: 0.1px;
+}
+
+.section-technology01 h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+
+.text01{
+    width: 450px;
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.text01 h2{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: smaller;
+
+}
+
+.text01 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.text01 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+.image01 img{
+    width: 430px;
+}
+
+/*TECHNOLOGY-SPACESPORT*/
+
+.section-technology02{
+    display: none;
+}
+
+.technology02{
+    display:flex;
+}
+
+.description-technology02{
+
+    display: flex;
+}
+
+.numbers02{
+    height: 400px;
+    width:100px;
+    margin-left: 100px;
+    margin-top:80px;
+}
+
+.tech1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: transparent;
+    color: black;
+    margin-bottom: 30px;
+    margin-top:15px;
+    font-family:'Lora', serif;
+    font-size: 25px;
+    border-width: 0.1px;
+}
+
+.tech{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:transparent;
+    border-color: white;
+    margin-bottom: 30px;
+    font-family:'Lora', serif;
+    font-size: 25px;
+    color:white;
+    border-width: 0.1px;
+}
+
+.section-technology02 h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-top:100px;
+
+}
+
+.text02{
+    width: 450px;
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.text02 h2{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: smaller;
+
+}
+
+.text02 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.text02 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+}
+
+.image02 img{
+    width: 430px;
+}
+
+/*TECHNOLOGY SPACE-CAPSULE*/
+
+.section-technology03{
+    display:none;
+}
+
+.technology03{
+    display:flex;
+}
+
+.description-technology03{
+
+    display: flex;
+}
+
+.numbers03{
+    height: 400px;
+    width:100px;
+    margin-left: 100px;
+    margin-top:80px;
+}
+
+.tech1{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: transparent;
+    color: black;
+    margin-bottom: 30px;
+    margin-top:15px;
+    font-family:'Lora', serif;
+    font-size: 25px;
+    border-width: 0.1px;
+}
+
+.tech{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color:transparent;
+    border-color: white;
+    margin-bottom: 30px;
+    font-family:'Lora', serif;
+    font-size: 25px;
+    color:white;
+    border-width: 0.1px;
+}
+
+.section-technology03 h1{
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 7px;
+    font-size: larger;
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-top:100px;
+
+}
+
+.text03{
+    width: 450px;
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.text03 h2{
+
+    font-family:'Oswald', sans-serif;
+    font-weight:normal;
+    letter-spacing: 2px;
+    font-size: smaller;
+
+}
+
+.text03 h3{
+    font-family: 'Lora', serif;
+    color:white;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.text03 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size:small;
+    font-weight:lighter;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+   
+}
+
+.image03 img{
+    width: 430px;
+}
+
+
